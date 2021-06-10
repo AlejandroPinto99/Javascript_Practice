@@ -1,0 +1,13 @@
+JAVASCRIPT TYPE: Js has 5 types that we can use:
+1. Number , NaN: No a Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+
+JAVASCRIPT VARIABLES
+1. var  
+2. let
+3. const 

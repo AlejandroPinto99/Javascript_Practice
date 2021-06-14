@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+<body>
+    <span></span> <!--is used for inline elements, no blocks-->
+    <div> <!--Div is used to wrap a block of code-->
+        <form method="GET">
+            <!--Use get, not Post
+            All the input most have a nanme, to identify the user's information-->
+            <label>First Name: </label>
+            <input type="text" name="firstname"><br><br>
+
+            <label>Last Name: </label>
+            <input type="text" name="lastname">   <br><br>
+
+            <label>Email: </label>
+            <input type="email" required name="email"><br><br>
+            
+            <label>Password: </label>
+            <input type="password" minlength="8" name="password"> <br><br>
+
+            <label>Birthday: </label>
+            <input type="date" name="birthday"> <br><br>
+
+            <lable>Gender: </lable> <br>
+            <input type="radio" name="gender" value="Male"> Male <br>
+            <input type="radio" name="gender" value="Female"> Female <br>
+            <input type="radio" name="gender" value="Other"> Other <br>
+
+            <label>Pets: </label> <br>
+            <input type="checkbox" name="dog"> Dog <br>
+            <input type="checkbox" name="cat" > Cat <br>
+            <input type="checkbox"name="parrot" > Parrot <br>
+            <input type="checkbox" name ="hamster" > Hamster <br>
+
+            <label>Cars: </label>
+            <select name="cars">
+                <option value="volvo" name="volvo">Volvo</option> 
+                <option value="ferrari" name="ferrari">Ferrari</option> 
+                <option value="nissan" name="nissan">Nissan</option> 
+                <option value="susuki" name="susuki">Susuki</option> 
+            </select> <br><br>
+
+            <input type="submit" value="Register" >
+            <input type="reset"> <br>
+            <a href="First Webpage.html"><p>Go back</p></a>
+        </form>
+    </div>
+</body>
+</html>
